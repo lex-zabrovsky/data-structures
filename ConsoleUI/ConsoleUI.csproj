@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\DataStructures\DataStructures.csproj" />
+    <ProjectReference Include="..\Algorithms\Algorithms.csproj" />
   </ItemGroup>
 
 </Project>
