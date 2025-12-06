@@ -1,5 +1,7 @@
 ﻿using System.Collections.Generic;
 using DataStructures;
+using Algorithms;
+
 namespace ConsoleUI
 {
     internal class Program
@@ -7,6 +9,13 @@ namespace ConsoleUI
         static void Main(string[] args)
         {
             DoublyLinkedList_Client();
+            QuickFindUF_Client();
+        }
+
+        static void QuickFindUF_Client()
+        {
+            var qf = new QuickFindUF();
+            qf.TestBuild();
         }
 
         static void DoublyLinkedList_Client()
