@@ -6,6 +6,11 @@ namespace ConsoleUI
     {
         static void Main(string[] args)
         {
+            DoublyLinkedList_Client();
+        }
+
+        static void DoublyLinkedList_Client()
+        {
             var list = new SinglyLinkedList<float>() { 1.4f, 3.2f, 5.7f };
 
             Console.WriteLine(list);
@@ -38,8 +43,7 @@ namespace ConsoleUI
             if (doublyList.Remove("6"))
             {
                 Console.WriteLine("yes");
-            }
-
+            }            
         }
     }
 }
