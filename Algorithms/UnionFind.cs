@@ -60,11 +60,7 @@ namespace Algorithms
 
     public override string ToString()
     {
-      string result = "";
-      foreach (var i in id)
-        result += id[i].ToString();
-
-      return result;
+      return string.Join(separator: "", values: id);
     }
   }
 
